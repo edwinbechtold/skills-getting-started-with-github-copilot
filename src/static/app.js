@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const response = await fetch(
         `/activities/${encodeURIComponent(activity)}/signup?email=${encodeURIComponent(email)}`,
         {
-          method: "POST",
+          method: "POST", 
         }
       );
 
